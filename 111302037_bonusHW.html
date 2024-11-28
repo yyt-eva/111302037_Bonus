@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Roll</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            width: 50%;
+            margin: 2% auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .form-row input {
+            flex: 1;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .form-row input:focus {
+            border-color: #007BFF;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+            font-size: 14px;
+            resize: none;
+        }
+
+        textarea:focus {
+            border-color: #007BFF;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>RickRoll</h1>
+        <form>
+            <div class="form-group">
+                <label for="input1">Never</label>
+                <input type="text" id="Never">
+            </div>
+            <div class="form-group form-row">
+                <label for="input2">Gonna</label>
+                <input type="text" placeholder="Gonna">
+                <label for="input3">Give</label>
+                <input type="text" placeholder="Give">   
+                <label for="input4">You up</label>
+                <input type="text" placeholder="You up">
+            </div>
+            <div class="form-group">Rickroll Lyrics</label>
+                <textarea id="textarea" rows="4" placeholder="Enter text here..."></textarea>
+            </div>
+            <div class="form-group image-container">
+                <img src="rick.jpeg" alt="Placeholder Image">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
